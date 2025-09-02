@@ -1,6 +1,6 @@
 const {createClient} = require("@supabase/supabase-js");
 const URL = "https://ekmhgyrtanafcnwzppbk.supabase.co"
-const KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVrbWhneXJ0YW5hZmNud3pwcGJrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYyOTI0MDYsImV4cCI6MjA3MTg2ODQwNn0._6MUdAZ-4Bbhwe9iivsmyeUhSeAfUpRHKZMOvczDkPU"
+const KEY = ""
 const supabase = createClient(URL, KEY)
 
 const promptSync = require("prompt-sync");
